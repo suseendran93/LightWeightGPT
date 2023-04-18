@@ -7,19 +7,19 @@ To install and run the application locally, follow these steps:
 
 Clone the repository to your local machine using the following command:
 
-### git clone https://github.com/suseendran93/LightWeightGPT.git
+	git clone https://github.com/suseendran93/LightWeightGPT.git
 
 Navigate to the root directory of the project.
 
-### cd LightWeightGPT
+	cd LightWeightGPT
 
 Install the dependencies by running the following command:
 
-### npm install
+	npm install
 
 Start the development server by running the following command:
 
-### npm start
+	npm start
 
 Open your web browser and go to http://localhost:3000 to view the application.
 
@@ -45,11 +45,11 @@ Fork the repository to your own GitHub account.
 Clone the repository to your local machine.
 Create a new branch for your changes.
 
-git checkout -b my-feature-branch
+	git checkout -b my-feature-branch
 
 Make your changes and commit them with a descriptive message.
 
-git commit -m "Add some feature"
+	git commit -m "Add some feature"
 
 Push your changes to your forked repository.
 
