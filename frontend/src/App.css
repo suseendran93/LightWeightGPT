@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  color: #ada7a7;
+}
+/*------------CSS RESET SECTION-------------------*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+textarea,
+button,
+select {
+    font: inherit;
+}
+
+/*--------------------Styling title-------------------*/
+.header-title{
+    font-weight: 100;
+}
+
+/*-------------Auth page------------------------------------*/
+.auth-input-form{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    width: 100%;
+    bottom: 50%;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+    background-color: #1a1919;
+}
+.auth-box__input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #1a1919;
+    margin: 20px;
+    color:#ada7a7;
+    border: 1px solid;
+  }
+  .auth-box__send-btn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #747171;
+    background-color: #1a1919;
+  }
+
+  
+/*----------------Styling chatbox-----------------------*/
+.chat-box{
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-input-form {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+    background-color: #1a1919;
+    margin-bottom: 20px;
+  
+  }
+
+  .chat-box__input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #1a1919;
+    margin-right: 10px;
+    color:#ada7a7;
+  }
+  
+  .chat-box__send-btn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #747171;
+  }
+
+  /*---------------Styling Chat log section--------------------*/
+.chat-log-container{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.chat-log {
+   
+    text-align: justify;
+    
+}
+
+.message__text {
+    padding: 10px;
+    white-space: pre-wrap;
+    color:#ada7a7
+}
+
+
+
+.message--sent{
+    background-color: #2e2d2d;
+}
+.message--received{
+    background-color: #5f5b5b;
+}
+
+/*--------Styling code section---------------*/
+.SyntaxHighlighter{
+background-color: #5f5b5b !important;
+}
+
+/* Styling edit and copy buttons in chat log*/
+
+/* .message{
+    display: flex;
+}*/
+ .message__button{
+    margin: auto;
+} 
