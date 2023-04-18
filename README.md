@@ -11,7 +11,7 @@ git clone https://github.com/suseendran93/LightWeightGPT.git
 
 Navigate to the root directory of the project.
 
-cd ChatGPT-TTS
+cd LightWeightGPT
 
 Install the dependencies by running the following command:
 
